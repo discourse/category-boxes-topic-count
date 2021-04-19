@@ -1,0 +1,15 @@
+.custom-topic-count {
+  color: var(--primary-medium);
+  margin-top: auto;
+  margin-left: auto;
+  display: flex;
+  font-size: $font-down-1;
+  padding-top: 1em;
+  font-weight: 500;
+  &-title {
+    margin-right: 1em;;
+  }
+  &-topics {
+    font-weight: 600;
+  }
+}
