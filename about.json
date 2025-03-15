@@ -3,8 +3,6 @@
   "about_url": "https://meta.discourse.org/t/topic-count-in-category-boxes/187411",
   "license_url": null,
   "component": true,
-  "assets": {
-  },
-  "color_schemes": {
-  }
+  "assets": {},
+  "color_schemes": {}
 }
