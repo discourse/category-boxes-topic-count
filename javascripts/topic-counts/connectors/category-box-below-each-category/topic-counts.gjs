@@ -1,11 +1,10 @@
 import Component from "@ember/component";
-import { classNames, tagName } from "@ember-decorators/component";
+import { tagName } from "@ember-decorators/component";
 import CategoryUnread from "discourse/components/category-unread";
 import htmlSafe from "discourse/helpers/html-safe";
 import { i18n } from "discourse-i18n";
 
 @tagName("")
-@classNames("category-box-below-each-category-outlet", "topic-counts")
 export default class TopicCounts extends Component {
   <template>
     <div class="custom-topic-count">
